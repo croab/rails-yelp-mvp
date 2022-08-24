@@ -1,0 +1,7 @@
+<div class="container mt-3">
+  <%= simple_form_for [restaurant, review] do |f| %>
+    <%= f.input :content %>
+    <%= f.input :rating %>
+    <%= f.button :submit, class: 'btn btn-success mb-3' %>
+  <% end %>
+</div>
